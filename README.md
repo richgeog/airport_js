@@ -15,3 +15,9 @@ To get passengers to a destination
 I want to instruct a plan to take off from
 an airport and confirm that it is no longer in the airport
 ```
+
+```
+As an air traffic controller
+To ensure safety
+I want to prevent takeoff when weather is stormy
+```
