@@ -1,3 +1,16 @@
-describe(function() {
+'use strict';
 
-}
+describe('Airport:', function(){
+  var plane;
+  var airport;
+
+  beforeEach(function(){
+    plane = new Plane();
+    airport = new airport();
+  });
+
+  it('planes can be instructed to land at an airport', function(){
+    plane.land(airport);
+    expect(airport.planes()).toContain(plane);
+  });
+});
